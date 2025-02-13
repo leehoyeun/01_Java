@@ -29,19 +29,18 @@ public class ConditionPractice {
 		int input = sc.nextInt();
 		String result;
 		
-		if (input < 0) {
+		if (input <= 0) {
 			System.out.println("양수만 입력해주세요.");
 		}else { // 정상접근
 			if (input % 2 != 0) {
 				System.out.println("홀수입니다.");
-			}else { if(input == 0) {
+			}else if(input == 0) {
 				System.out.println("0입니다");
 			}else {
 				System.out.println("짝수입니다");
 			}
-			};	
+		}	
 		}
-	}
 	public void practice2() {
 	/*
 	 * 국어, 영어, 수학 세 과목의 점수를 키보드로 입력 받고 합계와 평균을 계산하고
@@ -60,10 +59,8 @@ public class ConditionPractice {
 		
 		
 		int sum1 = kor+eng+math;
-		int Average = sum1/3;
-		
-		String result;
-		
+		double Average = sum1/3.0;
+				
 		if(Average < 60 ) {
 		System.out.println("불합격 입니다");
 		} else {
@@ -82,4 +79,20 @@ public class ConditionPractice {
 		}
 			
 		}
+	public void practice3() {
+		
+		/*
+		 * 1~12 사이의 수를 입력 받아 해당 달의 일수를 출력하세요.(2월 윤달은 생각하지 않습니다.)
+잘못 입력한 경우 “OO월은 잘못 입력된 달입니다.”를 출력하세요. (switch문 사용)
+		 * */
+		
+		System.out.print("1~12사이 정수입력");
+		int month = sc.nextInt()
+			if (month>12||month<0) {
+				System.out.println("잘못 입력된 달입니다.");
+			}else {
+				
+			}
 	}
+
+}
