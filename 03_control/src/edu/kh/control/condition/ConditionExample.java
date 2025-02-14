@@ -218,13 +218,13 @@ public class ConditionExample { //기능 제공용 클래스
 		int age = sc.nextInt();
 		String result;
 		
-		if (age < 0|| input>100) {
+		if (age < 0|| age>100) {
 			result="잘못 입력하셨습니다";
 		}
 		else {//나이를 0~100 잘 입력한 경우
 			
 		}
-		System.out.println(result);
+	//	System.out.println(result);
 		
 	}
 	public void ex8() {
