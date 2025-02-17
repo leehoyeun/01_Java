@@ -106,7 +106,7 @@ public class ArrayExample1 {
 	
 		for(int i = 0;i<arr.length;i++) {
 			// i ->0123
-			System.out.printf("arr[%d]에 저장된 값 : %d\n",);
+			System.out.printf("arr[%d]에 저장된 값 : %d\n", i, arr[i]);
 		}	//arr[0]에 저장된 값 : 100
 			//arr[1]에 저장된 값 : 300
 			// ..
