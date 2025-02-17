@@ -1,5 +1,7 @@
 package edu.kh.control.practice;
+
 import java.util.Scanner;
+
 public class ConditionPractice {
 	
 	Scanner sc = new Scanner(System.in);
@@ -28,11 +30,13 @@ public class ConditionPractice {
 		
 		System.out.println(result);
 	}
+	
 	public void practice2() {
 		/*
 		 * 국어, 영어, 수학 세 과목의 점수를 키보드로 입력 받고 합계와 평균을 계산하고
 		합계와 평균을 이용하여 합격 / 불합격 처리하는 기능을 구현하세요.
 		(합격 조건 : 세 과목의 점수가 각각 40점 이상이면서 평균이 60점 이상일 경우)
+
 		합격 했을 경우 과목 별 점수와 합계, 평균, “축하합니다, 합격입니다!”를 출력하고
 		불합격인 경우에는 “불합격입니다.”를 출력하세요.
 		 * 
@@ -66,6 +70,7 @@ public class ConditionPractice {
 		
 		
 	}
+	
 	public void practice3() {
 		/*
 		 * 1~12 사이의 수를 입력 받아 해당 달의 일수를 출력하세요.
@@ -92,7 +97,9 @@ public class ConditionPractice {
 		
 		
 	}
+	
 	public void practice4() {
+
 		/*키, 몸무게를 double로 입력 받고 BMI지수를 계산하여 계산 결과에 따라
 		저체중/정상체중/과체중/비만을 출력하세요.
 		
@@ -137,6 +144,7 @@ public class ConditionPractice {
 		System.out.println(result);
 		
 	}
+	
 	public void practice5() {
 		/*
 		 * 중간고사, 기말고사, 과제점수, 출석횟수를 입력하고 
