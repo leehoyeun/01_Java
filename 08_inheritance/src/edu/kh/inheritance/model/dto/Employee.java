@@ -19,8 +19,7 @@ package edu.kh.inheritance.model.dto;
 	
 	@Override
 	public void move(String str, int num) {
-		// TODO Auto-generated method stub
-		//super.move(str, num);
+	
 		System.out.println("오버라이딩된 move()");
 		System.out.println("효율적으로 빨리 일하고 퇴근한다");
 	}
