@@ -1,4 +1,4 @@
-package adu.kh.generics;
+package edu.kh.generics;
 
 //제네릭 클래스 선언
 public class Box<T> {

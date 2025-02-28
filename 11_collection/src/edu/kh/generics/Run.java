@@ -1,4 +1,4 @@
-package adu.kh.generics;
+package edu.kh.generics;
 
 public class Run {
 	public static void main(String[] args) {
