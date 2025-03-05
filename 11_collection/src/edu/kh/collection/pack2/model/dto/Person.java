@@ -8,6 +8,9 @@ public class Person {
 	private int age;
 	private char gender;
 	
+	
+	
+	
 	public Person() {}
 
 	public Person(String name, int age, char gender) {
